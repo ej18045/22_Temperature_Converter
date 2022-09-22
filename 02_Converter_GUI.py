@@ -9,8 +9,8 @@ class Converter:
         background_color = "royal blue"
 
         # Converter Frame
-        self.converter_frame = Frame (width=640, bg=background_color,
-                                      pady=10)
+        self.converter_frame = Frame(width=640, bg=background_color,
+                                     pady=10)
         self.converter_frame.grid()
 
         # Temperature Converter Heading (row 0)

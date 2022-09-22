@@ -1,10 +1,10 @@
-# quick component to convert degrees C to F.
+# quick component to convert degrees F to C.
 # Function takes in value, does conversion and puts answer into a list
 
 
 def to_c(from_f):
-    Celsius = (from_f - 32) * 5/9
-    return Celsius
+    celsius = (from_f - 32) * 5/9
+    return celsius
 
 
 # Main Routine
